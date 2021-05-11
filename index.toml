@@ -69,6 +69,14 @@ file = "configs/ruins.txt"
 hash = "b95ff0a6597bcb0c5c6880142ba3b9bd3fc95d895683321d283186ad4fa3eeda"
 
 [[files]]
+file = "configs/ruins_config/generic/EmeraldOreOutcrop.tml"
+hash = "c8873dc3637aada8c444d31712d0e5e1ba7662b0c7875d41a035d3eb87ad1240"
+
+[[files]]
+file = "configs/ruins_config/generic/OreSpire.tml"
+hash = "8a52fb3a1be478320d57eb1041106fe0e5d1d1e57c050dba6ce163a55e417e6d"
+
+[[files]]
 file = "configs/simplerpg.cfg"
 hash = "9aa8f5bd88dd2fccbf1c9e6fe4afbe99296d28ff09af9e1561dceec1791beb23"
 
