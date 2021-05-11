@@ -1,0 +1,287 @@
+
+# Created by Ruins mod version 17.2 Ingame Parser
+# authoring Player: Sakhyo
+
+# TEMPLATE PARAMETER SETTINGS:
+#
+# criterion expression specifying mod ids required to load template
+# may include plus (AND), minus (AND NOT), comma (OR), and parentheses
+# all required mods listed must be present; no prohibited mods can be
+requiredMods=
+#
+# likelihood this template will be chosen relative to all others
+# e.g., a weight=6 template is chosen 3X as often as one with weight=2
+weight=1
+#
+# list of dimensions in which this template may spawn, even if generic
+# one or more dimension names, separated by commas (blank = all)
+dimensionsToSpawnIn=
+#
+# list of other biomes in which this template may spawn
+# biome corresponding to directory is always assumed, listed or not
+# generic templates should leave this list empty
+biomesToSpawnIn=
+#
+# criterion expression specifying types of biome where template spawns
+# this is in addition to those explicitly listed as biomesToSpawnIn
+# generic templates should leave this list empty
+biomeTypesToSpawnIn=
+#
+# list of biomes in which this template may not spawn
+# takes precedence over biomeTypesToSpawnIn, but NOT biomesToSpawnIn
+# should be empty if biomeTypesToSpawnIn is empty
+biomesToNotSpawnIn=
+#
+# depth template is pushed down into the surface when built
+# offset is min/max range of random additional bury depth
+embed_into_distance=0
+random_height_offset=0,0
+#
+# whitelist/blacklist of block types on which template may be built
+# specify one, not both; leave the other empty (both empty = allow all)
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+#
+# size of template (#layers, #rows per layer, #blocks per row)
+dimensions=9,18,13
+#
+# max number of missing blocks allowed in surface beneath template
+allowable_overhang=0
+#
+# depth/height limit affected by terrain leveling
+# also maximum bumpiness tolerated in surface beneath template
+max_leveling=10
+#
+# padding applied to all sides of template horizontal footprint
+# expands area affected by terrain leveling (-1 = no leveling)
+leveling_buffer=-1
+#
+# do not rotate template randomly when built (1 = no rotation)
+preventRotation=1
+#
+# treat water/lava blocks as air and protect them from rule0 (1 = yes)
+preserve_water=0
+preserve_lava=0
+#
+# minimum distance this template must have from instances of itself
+uniqueMinDistance=0
+#
+# min/max distances this template can be from world spawn (0 = no limit)
+# only applies to overworld--i.e., dimension 0
+spawnMinDistance=0
+spawnMaxDistance=0
+#
+# other template built nearby whenever this one is
+# syntax: <name>;<relativeX>;<maxYdifference>;<relativeZ>[;<chance>]
+# may be used more than once to specify multiple neighbors
+adjoining_template=
+
+rule1=0,100,additional_lights:al_torch_stone_bricks-1
+rule2=0,100,aunis:dhd_block-13
+rule3=0,100,minecraft:stone_brick_stairs-2
+rule4=0,100,minecraft:stone_brick_stairs-0
+rule5=0,100,minecraft:stone_brick_stairs-3
+rule6=0,100,minecraft:stonebrick-0
+rule7=0,100,IInventory;minecraft:chest;zpmmod:zpm#{Energy:2147483647}#0#0+aunis:transportrings_controller_block#1#0#1+aunis:transportrings_block#1#0#2+aunis:crystal_glyph_milkyway#1#0#3+aunis:crystal_glyph_pegasus#1#0#4+aunis:crystal_glyph_universe#1#0#5+aunis:crystal_glyph_dhd#1#0#6+aunis:crystal_glyph_stargate#1#0#7+aunis:universe_dialer#1#0#8+aunis:page_mysterious#1#0#9+aunis:circuit_control_base#1#0#10+aunis:circuit_control_crystal#1#0#11+aunis:circuit_control_naquadah#1#0#12+aunis:naquadah_ore#64#0#13+aunis:naquadah_ore_stone#64#0#14+aunis:crystal_control_dhd#1#0#15+aunis:page_notebook#1#0#16-3
+rule8=0,100,IInventory;minecraft:chest;zpmmod:zpm#{Energy:2147483647}#0#0+aunis:transportrings_block#1#0#1+aunis:transportrings_controller_block#1#0#2+aunis:crystal_glyph_dhd#1#0#3+aunis:crystal_glyph_stargate#1#0#4+aunis:crystal_glyph_milkyway#1#0#5+aunis:crystal_glyph_pegasus#1#0#6+aunis:crystal_glyph_universe#1#0#7+aunis:universe_dialer#1#0#8+aunis:page_mysterious#1#0#9+aunis:circuit_control_base#1#0#10+aunis:circuit_control_crystal#1#0#11+aunis:circuit_control_naquadah#1#0#12+aunis:crystal_control_dhd#1#0#13+aunis:naquadah_ore_stone#64#0#14+aunis:naquadah_ore#64#0#15+aunis:page_notebook#1#0#16-2
+rule9=0,100,IInventory;minecraft:chest;forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#0+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#1+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#2+aunis:crystal_glyph_stargate#1#0#3+aunis:crystal_glyph_milkyway#1#0#4+aunis:crystal_glyph_universe#1#0#5+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#6+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#7+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#8+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#9+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#10+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#11+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#12+aunis:crystal_glyph_pegasus#1#0#13+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#14+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#15+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#16+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#17+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#18+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#19+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#20+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#21+aunis:crystal_control_dhd#1#0#22+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#23+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#24+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#25+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#26-4
+rule10=0,100,IInventory;minecraft:chest;forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#0+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#1+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#2+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#3+aunis:crystal_glyph_dhd#1#0#4+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#5+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#6+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#7+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#8+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#9+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#10+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#11+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#12+aunis:page_notebook#1#0#13+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#14+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#15+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#16+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#17+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#18+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#19+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#20+aunis:capacitor_block#1#0#21+aunis:capacitor_block#1#0#22+aunis:capacitor_block#1#0#23+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#24+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#25+forge:bucketfilled#{FluidName:"naquadah_molten_refined",Amount:1000}#0#26-4
+rule11=0,100,minecraft:stone_brick_stairs-1
+rule12=0,100,minecraft:double_stone_slab-5
+rule13=0,100,littletiles:blocklittletiles-0
+rule14=0,100,aunis:stargate_milkyway_member_block-9
+rule15=0,100,aunis:stargate_milkyway_base_block-1
+rule16=0,100,minecraft:monster_egg-2
+rule17=0,100,additional_lights:fire_pit_s_stone_bricks-0
+rule18=0,100,additional_lights:fire_for_fire_pit_s-0
+rule19=0,100,aunis:stargate_milkyway_member_block-1
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,1,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,1,0,0
+0,2,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,0,1,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,5,4,4,4,4,4,4,4,3,0,0
+0,0,5,0,0,0,0,0,0,0,3,0,0
+0,0,4,0,0,0,0,0,0,0,4,4,0
+0,4,6,0,0,0,0,0,0,0,6,3,0
+0,5,6,8,0,0,0,0,0,7,6,3,0
+0,5,6,0,0,0,10,9,0,0,6,3,0
+0,5,6,6,6,6,6,6,6,6,6,3,0
+0,11,11,11,11,11,11,11,11,11,11,3,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,5,4,4,4,4,4,3,0,0,0
+0,0,0,4,0,0,0,0,0,4,0,0,0
+0,13,4,12,0,0,0,0,0,12,4,0,0
+0,13,5,0,0,14,15,14,0,0,3,0,0
+0,13,5,0,0,0,0,0,0,13,3,0,0
+0,0,5,11,11,11,11,11,11,11,3,0,0
+0,0,0,13,13,13,13,13,0,13,13,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,5,4,4,4,3,0,0,0,0
+0,0,13,4,16,16,16,16,16,4,13,0,0
+0,0,13,5,16,16,16,16,16,3,13,0,0
+0,0,13,5,11,11,11,11,11,3,13,0,0
+0,0,0,13,13,13,13,13,0,13,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,17,0,0,0,17,0,0,0,0
+0,0,0,14,0,0,0,0,0,14,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,18,0,0,0,18,0,0,0,0
+0,0,0,19,0,0,0,0,0,19,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,14,0,0,0,0,0,14,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,19,0,0,0,0,0,19,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,14,0,0,0,14,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,19,14,19,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+

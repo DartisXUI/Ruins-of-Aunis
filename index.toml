@@ -77,6 +77,22 @@ file = "config/ruins_config/generic/OreSpire.tml"
 hash = "8a52fb3a1be478320d57eb1041106fe0e5d1d1e57c050dba6ce163a55e417e6d"
 
 [[files]]
+file = "config/ruins_config/generic/aunisg.tml"
+hash = "dd6889d04581b4f8cc34781cf72e3ec85ff2365133b614b2e1298fedd6084034"
+
+[[files]]
+file = "config/ruins_config/generic/aunistone.tml"
+hash = "5e8ea371803abccdc100b575a0d4630f7b0b8361ba878854de0124b6081ee0ab"
+
+[[files]]
+file = "config/ruins_config/generic/aunisuniverse.tml"
+hash = "43130bdfc2d874f03ca4dafac407b8aaf5d4b34f78d9bb3db4e43e6780a72ebd"
+
+[[files]]
+file = "config/ruins_config/hell/aunisnether.tml"
+hash = "90015ef66882b6abf28c027d5ef5df9ae06d9d7592025e1097988a5c890eadfa"
+
+[[files]]
 file = "config/simplerpg.cfg"
 hash = "9aa8f5bd88dd2fccbf1c9e6fe4afbe99296d28ff09af9e1561dceec1791beb23"
 
