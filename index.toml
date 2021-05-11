@@ -1,91 +1,91 @@
 hash-format = "sha256"
 
 [[files]]
-file = "configs/GeneticsReborn/GeneticsReborn.cfg"
+file = "config/GeneticsReborn/GeneticsReborn.cfg"
 hash = "117c17d58eab171ea4162719489232b445b4a89e5eb428a38677a3fee4b4f570"
 
 [[files]]
-file = "configs/IC2.ini"
+file = "config/IC2.ini"
 hash = "8e17bfb255616c4c65288c127ceaab63a0ebf33cd76e4898f5be4faf6fb9b018"
 
 [[files]]
-file = "configs/TinkerToolLeveling.cfg"
+file = "config/TinkerToolLeveling.cfg"
 hash = "c8ce4b860358129fb90fa179bfd48c861c8afdc616b363a7d5fd2b88598a2704"
 
 [[files]]
-file = "configs/Waystones.cfg"
+file = "config/Waystones.cfg"
 hash = "ad5c04f5276ca3e6e589d08901f4f7d2c91d4b9cf5299b2fc93290eb978fe6e1"
 
 [[files]]
-file = "configs/cofh/world/01_thermalfoundation_ores.json"
+file = "config/cofh/world/01_thermalfoundation_ores.json"
 hash = "a7f5a5b4a01102b839089e40fb2dbad4709dd208b64f4d7de9495afa226328e0"
 
 [[files]]
-file = "configs/cofh/world/galacticores-109-above-cofh-world.json"
+file = "config/cofh/world/galacticores-109-above-cofh-world.json"
 hash = "31733f8c5823b4296075b290f43ee18e8da657dd92e203d2acd5236922530dc3"
 
 [[files]]
-file = "configs/enderio/recipes/user/user_recipes.xml"
+file = "config/enderio/recipes/user/user_recipes.xml"
 hash = "b1a1e2919e06530615ee214dab0298bdd085715e5462f7ac2a8915c410de0e05"
 
 [[files]]
-file = "configs/enderstorage.cfg"
+file = "config/enderstorage.cfg"
 hash = "0e768f6d9d9275564e12c41e0364cc3f0b98b6d2a1715af31509c1d577860853"
 
 [[files]]
-file = "configs/extrautils2.cfg"
+file = "config/extrautils2.cfg"
 hash = "e9bcc0c3f59f024d811d9fb7e78d95b4e5a2c1853e898d19611e8d22d6bd482c"
 
 [[files]]
-file = "configs/ftbutilities.cfg"
+file = "config/ftbutilities.cfg"
 hash = "ba6aaba30aa9ad0cab7591d09bbf2de890e72ee84442e71bf04f1e11e32fe746"
 
 [[files]]
-file = "configs/huntingdim/huntingdim.cfg"
+file = "config/huntingdim/huntingdim.cfg"
 hash = "90fefa72f012e5c41b4f3fa1320cdbb0e0bd780c00702ceff7d5dd67c8840c1a"
 
 [[files]]
-file = "configs/ic2/shaped_recipes.ini"
+file = "config/ic2/shaped_recipes.ini"
 hash = "caebe3a5cebd5cf9278f89dd35c8e31a767c5f17fe32463e0ed3b0159ab79a5a"
 
 [[files]]
-file = "configs/mekanism.cfg"
+file = "config/mekanism.cfg"
 hash = "7ca35433ca67d1cc659ff99615629beb7eecea151db2fd4ff538322e4b3f1a20"
 
 [[files]]
-file = "configs/natura.cfg"
+file = "config/natura.cfg"
 hash = "0284a131fd9b28555ae0e2c90ba91c336a501199a864705f641f9c64276e9d13"
 
 [[files]]
-file = "configs/orecore.cfg"
+file = "config/orecore.cfg"
 hash = "f5f7be24306d4aa813826ba52161a009389dfdcc7d8366f84828ab5b5c54c5d9"
 
 [[files]]
-file = "configs/quark.cfg"
+file = "config/quark.cfg"
 hash = "d83cf31cc007caeef754a9d85b582cbe9879f6f6933a5a585919597d53cf3696"
 
 [[files]]
-file = "configs/ruins.txt"
+file = "config/ruins.txt"
 hash = "b95ff0a6597bcb0c5c6880142ba3b9bd3fc95d895683321d283186ad4fa3eeda"
 
 [[files]]
-file = "configs/ruins_config/generic/EmeraldOreOutcrop.tml"
+file = "config/ruins_config/generic/EmeraldOreOutcrop.tml"
 hash = "c8873dc3637aada8c444d31712d0e5e1ba7662b0c7875d41a035d3eb87ad1240"
 
 [[files]]
-file = "configs/ruins_config/generic/OreSpire.tml"
+file = "config/ruins_config/generic/OreSpire.tml"
 hash = "8a52fb3a1be478320d57eb1041106fe0e5d1d1e57c050dba6ce163a55e417e6d"
 
 [[files]]
-file = "configs/simplerpg.cfg"
+file = "config/simplerpg.cfg"
 hash = "9aa8f5bd88dd2fccbf1c9e6fe4afbe99296d28ff09af9e1561dceec1791beb23"
 
 [[files]]
-file = "configs/tconstruct.cfg"
+file = "config/tconstruct.cfg"
 hash = "6d57d986daefd5e3517a356e4a710bc08a813194db39955286e57db0e4f185e9"
 
 [[files]]
-file = "configs/woot/woot.cfg"
+file = "config/woot/woot.cfg"
 hash = "4710c95cc6c521c3239cca291c2258c04f1cce1ec6b13e1eaf54746b865fe198"
 
 [[files]]
