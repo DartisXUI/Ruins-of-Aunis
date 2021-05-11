@@ -3,7 +3,7 @@ name = "Ruins of Aunis"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "23adff6ee9ada8b72fc4e43ecde1e06f35aee233120b63d977004bfb89116c03"
+hash = "0037b5542ef310ee513b8bc4590bac7b46dea95534c07f0ee677e807f6ac930e"
 
 [versions]
 forge = "14.23.0.2486"
