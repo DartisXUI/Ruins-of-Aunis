@@ -254,6 +254,11 @@ hash = "fc7ea9950a58d5f1a8f51de569f1dd0ead20a790aa79c1e77095ffbac9dbe7de"
 metafile = true
 
 [[files]]
+file = "mods/controlling.toml"
+hash = "9e95e85e1901f88818d6c18d82d68ea4342206979ad861f884299e241ad4b195"
+metafile = true
+
+[[files]]
 file = "mods/cooking-for-blockheads.toml"
 hash = "43fce4a945472b03284a0c8559d7215775d81a2dc2c01d711ec9a1825232eca7"
 metafile = true
@@ -554,8 +559,8 @@ hash = "8d28e00965fc4d93759c552d6c261108ea8f38dd5c18a0cc766465c9439c1030"
 metafile = true
 
 [[files]]
-file = "mods/netherportalfix.toml"
-hash = "9d173ee00c9be20448e71d1ab57dca71aa5c213b677cbc8fe4effc76b3abf5ce"
+file = "mods/no-nether-portals.toml"
+hash = "1a959602ba43fea710089ccedffba5a6f5e621799dbd88303c9baf4926d5003d"
 metafile = true
 
 [[files]]
