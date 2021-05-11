@@ -341,11 +341,6 @@ hash = "e4e97ef5366c14588c3793c5a61b67250a9a3260c4032f4415e53090de5cf17d"
 metafile = true
 
 [[files]]
-file = "mods/extraplanets.toml"
-hash = "ecb8c867d9571fc93e3edf80211c774eecf90f1216d71ddf35c3f55be9b5154b"
-metafile = true
-
-[[files]]
 file = "mods/extreme-reactors.toml"
 hash = "a36fd587721df70466deb48016475df9c609e12e1692e34f05faeef6364ce533"
 metafile = true
