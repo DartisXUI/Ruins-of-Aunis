@@ -1,0 +1,10 @@
+name = "Ruins of Aunis"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9958cdbe6da778cd14230059c01cb7977cefb73f7fcf9e4e9d114bc27a86198f"
+
+[versions]
+forge = "14.23.0.2486"
+minecraft = "1.12.2"

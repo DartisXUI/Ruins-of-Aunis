@@ -1,0 +1,8 @@
+name = "McDoodleCore"
+filename = "McDoodleCore-1.12.2-4.0.2.280.jar"
+side = "both"
+
+[download]
+url = "https://micdoodle8.com/new-builds/GC-1.12/280/MicdoodleCore-1.12.2-4.0.2.280.jar"
+hash-format = "sha512"
+hash = "4c06c4539ce6f1f8e2ecaf03ce5e4ec66d116d2542a22a0d9d9abc2d862f3c47b4db9a6bdc0dc89d2409924a0e433d3a642d50df5996bc2339317284f0ad7521"

@@ -1,0 +1,14 @@
+name = "Ex Nihilo Omnia"
+filename = "exnihiloomnia_1.12.2-0.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2812/778/exnihiloomnia_1.12.2-0.0.2.jar"
+hash-format = "murmur2"
+hash = "2218354172"
+
+[update]
+[update.curseforge]
+file-id = 2812778
+project-id = 250662
+release-channel = "beta"

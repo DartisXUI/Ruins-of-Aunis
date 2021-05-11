@@ -1,0 +1,8 @@
+name = "GalacticraftCore"
+filename = "GalacticraftCore-1.12.2-4.0.2.280.jar"
+side = "both"
+
+[download]
+url = "https://micdoodle8.com/new-builds/GC-1.12/280/GalacticraftCore-1.12.2-4.0.2.280.jar"
+hash-format = "sha512"
+hash = "1ca660ecebeaf42633814f488331a9b96dfcaac1117235b0ce59ff275aa2356658713ffda9ec016b32d7a44c92168f0074ce5ac55894076a734e7d11ea5ca985"

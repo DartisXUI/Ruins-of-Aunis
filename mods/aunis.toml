@@ -1,0 +1,14 @@
+name = "AUNIS"
+filename = "aunis-1.12.2-1.9.11-beta.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3156/118/aunis-1.12.2-1.9.11-beta.jar"
+hash-format = "murmur2"
+hash = "75544710"
+
+[update]
+[update.curseforge]
+file-id = 3156118
+project-id = 324500
+release-channel = "beta"

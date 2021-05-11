@@ -1,0 +1,14 @@
+name = "More Planets - Galacticraft Add-on"
+filename = "More-Planets-1.12.2-2.2.1-GC280.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3165/54/More-Planets-1.12.2-2.2.1-GC280.jar"
+hash-format = "murmur2"
+hash = "2993779785"
+
+[update]
+[update.curseforge]
+file-id = 3165054
+project-id = 261990
+release-channel = "beta"

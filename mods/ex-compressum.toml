@@ -1,0 +1,14 @@
+name = "Ex Compressum"
+filename = "ExCompressum_1.12.2-3.0.32.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2966/941/ExCompressum_1.12.2-3.0.32.jar"
+hash-format = "murmur2"
+hash = "82680295"
+
+[update]
+[update.curseforge]
+file-id = 2966941
+project-id = 241967
+release-channel = "beta"

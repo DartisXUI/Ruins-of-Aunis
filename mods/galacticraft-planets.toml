@@ -1,0 +1,8 @@
+name = "Galacticraft-Planets"
+filename = "Galacticraft-Planets-1.12.2-4.0.2.280.jar"
+side = "both"
+
+[download]
+url = "https://micdoodle8.com/new-builds/GC-1.12/280/Galacticraft-Planets-1.12.2-4.0.2.280.jar"
+hash-format = "sha512"
+hash = "030b0bb778f97f58c00d8063842ee908727016ed2b8e471cd0c8f6de12f23a11d48f384598c78c6076d254ea247215046a24da9dfb06edd1a1b83f73065f5689"

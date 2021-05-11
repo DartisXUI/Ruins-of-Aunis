@@ -1,0 +1,14 @@
+name = "Embers"
+filename = "embers-0.230.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2495/586/embers-0.230.jar"
+hash-format = "murmur2"
+hash = "3976727820"
+
+[update]
+[update.curseforge]
+file-id = 2495586
+project-id = 251918
+release-channel = "beta"

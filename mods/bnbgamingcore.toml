@@ -1,0 +1,14 @@
+name = "BnBGamingCore"
+filename = "BNBGamingCore-1.12.2-0.12.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2991/671/BNBGamingCore-1.12.2-0.12.0.jar"
+hash-format = "murmur2"
+hash = "1511850695"
+
+[update]
+[update.curseforge]
+file-id = 2991671
+project-id = 274341
+release-channel = "beta"
