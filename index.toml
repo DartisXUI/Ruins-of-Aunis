@@ -666,6 +666,11 @@ hash = "2a0679d59374566b512e9b1329a9d64e21ccd1621887a5f67b09905646a776b2"
 metafile = true
 
 [[files]]
+file = "mods/reborncore.toml"
+hash = "c7008ce33ade755dbb24766fd4fe3e8ae87b4a2613f070193673fab884277b2f"
+metafile = true
+
+[[files]]
 file = "mods/redstone-arsenal.toml"
 hash = "646a556d6f8b0521960fb9b02ea4f91da9787f3458ebb57a70bc60cfecf329b5"
 metafile = true
