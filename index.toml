@@ -82,15 +82,15 @@ hash = "dd6889d04581b4f8cc34781cf72e3ec85ff2365133b614b2e1298fedd6084034"
 
 [[files]]
 file = "config/ruins_config/generic/aunistone.tml"
-hash = "5e8ea371803abccdc100b575a0d4630f7b0b8361ba878854de0124b6081ee0ab"
+hash = "db630d05b8ff146740006f27a98488c421eadd650d3fa36ec696412ca373d304"
 
 [[files]]
 file = "config/ruins_config/generic/aunisuniverse.tml"
-hash = "43130bdfc2d874f03ca4dafac407b8aaf5d4b34f78d9bb3db4e43e6780a72ebd"
+hash = "97ffaf8dbf4414dfceb368944b5bf72f8d16289eedeeeff1bb5eaab24fb4947b"
 
 [[files]]
 file = "config/ruins_config/hell/aunisnether.tml"
-hash = "90015ef66882b6abf28c027d5ef5df9ae06d9d7592025e1097988a5c890eadfa"
+hash = "d605fde5857fc2ac3d91095186a99d75ec686815878a1cd05c134cc79d5903b5"
 
 [[files]]
 file = "config/simplerpg.cfg"
