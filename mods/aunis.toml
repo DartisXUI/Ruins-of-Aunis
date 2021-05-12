@@ -1,14 +1,8 @@
 name = "AUNIS"
-filename = "aunis-1.12.2-1.9.11-beta.jar"
+filename = "aunis-peg-inc-12-5-21.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3156/118/aunis-1.12.2-1.9.11-beta.jar"
-hash-format = "murmur2"
-hash = "75544710"
-
-[update]
-[update.curseforge]
-file-id = 3156118
-project-id = 324500
-release-channel = "beta"
+url = "http://cruelplay.eu/upload/uploads/aunis/aunis-peg-inc-12-5-21.jar"
+hash-format = "sha512"
+hash = "ec01a00e7610ee758eeafd1e56ad083fd0e841c054e868802244fc4eaafd30895467205e9c0115165e3de308469ca31185eb0a01b2cd58edc00fec6c2923e411"
