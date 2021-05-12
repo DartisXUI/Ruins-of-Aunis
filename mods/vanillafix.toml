@@ -1,8 +1,0 @@
-name = "VanillaFix"
-filename = "VanillaFix-1.0.10-99.jar"
-side = "both"
-
-[download]
-url = "https://edge.forgecdn.net/files/2639/533/VanillaFix-1.0.10-99.jar"
-hash-format = "murmur2"
-hash = "3241108399"
