@@ -830,6 +830,11 @@ hash = "8da0f5a52f4282f7eb1b0840b979f42b0562f9fd6b872e645858c4a1f08d136e"
 metafile = true
 
 [[files]]
+file = "mods/vanillafix.toml"
+hash = "b16c2bda64e3075d3d4e024eaa675e2e3685e34c69a80edfc9794399fee3e372"
+metafile = true
+
+[[files]]
 file = "mods/wanionlib.toml"
 hash = "fceec942cbc92493c360643196c43e38fb01af0a3773ec12163e3adc049cce5c"
 metafile = true
