@@ -470,6 +470,11 @@ hash = "8869984ce1cae93208e4526e118d65b18adafa77b8fe8b95787f868ac6bb3e40"
 metafile = true
 
 [[files]]
+file = "mods/jei-integration.toml"
+hash = "5d1f363d9a6daed54fd0d8b30a5951f4d63ecba4e3617a5e442b87d535f42130"
+metafile = true
+
+[[files]]
 file = "mods/jei.toml"
 hash = "a13e7ffb803c1864cbb515a5511300f2a70c0f344455b0e501c59fe1225baa27"
 metafile = true
@@ -487,6 +492,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-energistics-jee.toml"
 hash = "958da46604aa6684011165a5f9ecda6a9d6a503853ed762bf783ff5d370ef40c"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.toml"
+hash = "763a688ee77550d2405ef3af861598059fa6b5dfd2f2cb2df6c405953363cee5"
 metafile = true
 
 [[files]]
