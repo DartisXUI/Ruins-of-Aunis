@@ -831,7 +831,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillafix.toml"
-hash = "b16c2bda64e3075d3d4e024eaa675e2e3685e34c69a80edfc9794399fee3e372"
+hash = "c35526fb5d5d2a95edcc9ef35ee02e3765f0a776dddbd296c88dbf681fdbbc18"
 metafile = true
 
 [[files]]
