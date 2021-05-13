@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/aunis.toml"
-hash = "4f09363b97c71c212d47fa4732eb67f696057ec102ee865557fa4c221df2b6bc"
+hash = "cd23f61c1d354a9e3cfaecf9eccc1603ae03dc90098cbf9e5c21d6d343538aad"
 metafile = true
 
 [[files]]
