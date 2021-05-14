@@ -170,11 +170,6 @@ hash = "6645c15620cc363fea1fea21a7cd199f38c11481634c688866cf59050922a271"
 metafile = true
 
 [[files]]
-file = "mods/asmodeuscore.toml"
-hash = "951822610c177b5c8428918d8a3cd9210eaab59f2b8870d2b20f748bf67ad35c"
-metafile = true
-
-[[files]]
 file = "mods/aunis.toml"
 hash = "cd23f61c1d354a9e3cfaecf9eccc1603ae03dc90098cbf9e5c21d6d343538aad"
 metafile = true
@@ -412,11 +407,6 @@ metafile = true
 [[files]]
 file = "mods/galacticraftcore.toml"
 hash = "f5b5c98159db2d2f7ca7cdf93b2b42e8c6f497a011c3caa7d6693af86462c6be"
-metafile = true
-
-[[files]]
-file = "mods/galaxy-space-addon-for-galacticraft.toml"
-hash = "481349b74856ebfe292bffc36ad21af5206bd2c2699288bd0be095da34cb2388"
 metafile = true
 
 [[files]]
