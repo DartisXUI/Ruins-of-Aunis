@@ -171,7 +171,7 @@ metafile = true
 
 [[files]]
 file = "mods/aunis-peg.toml"
-hash = "64f72e2aeb0f542b5078b067cbd5d8ecddff649b2ddf15c6a1aaf04f0fdabefc"
+hash = "441bc2c1f97c4f8588d513fa04b247f629e1af367fedffb2978429f1ce5ba952"
 metafile = true
 
 [[files]]
