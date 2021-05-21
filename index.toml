@@ -162,8 +162,8 @@ hash = "6645c15620cc363fea1fea21a7cd199f38c11481634c688866cf59050922a271"
 metafile = true
 
 [[files]]
-file = "mods/aunis-peg.toml"
-hash = "441bc2c1f97c4f8588d513fa04b247f629e1af367fedffb2978429f1ce5ba952"
+file = "mods/aunis-peg 1.toml"
+hash = "e392d9c8d99a55f11748c8d4bf7cd9c6cc641db3a2000e43d4ffd4868adb8f5c"
 metafile = true
 
 [[files]]
