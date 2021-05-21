@@ -1,8 +1,8 @@
 name = "AUNIS-PEG"
-filename = "Aunis-peg-inc-4-13-05-21.jar"
+filename = "aunis-peg-inc-12-5-21.jar"
 side = "both"
 
 [download]
 url = "http://cruelplay.eu/upload/uploads/aunis/Aunis-peg-inc-4-13-05-21.jar"
 hash-format = "sha512"
-hash = "3baf573f91e7edec4904b349a45cbb77309550e76f4a532de6f5b770c34510c70bcf81cc45ab403829ae696dff19a3d78b64abaaa86b7b44d25c8fbff6540243"
+hash = "ec01a00e7610ee758eeafd1e56ad083fd0e841c054e868802244fc4eaafd30895467205e9c0115165e3de308469ca31185eb0a01b2cd58edc00fec6c2923e411"
