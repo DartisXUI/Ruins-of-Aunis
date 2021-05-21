@@ -85,10 +85,6 @@ file = "config/ruins_config/generic/aunisuniverse.tml"
 hash = "59e3b3e53e9f3e3f162315b2d9841d7058522e5ea121474a45af34a3db1e957a"
 
 [[files]]
-file = "config/ruins_config/hell/aunisnether.tml"
-hash = "91fc09cb19d94aade3801339c4480f462a17bbd8583259313a6fbcf77da18065"
-
-[[files]]
 file = "config/simplerpg.cfg"
 hash = "9aa8f5bd88dd2fccbf1c9e6fe4afbe99296d28ff09af9e1561dceec1791beb23"
 
