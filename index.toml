@@ -672,6 +672,11 @@ hash = "112d333f80221cc89842cd3c32419ac96f57b9601178c2738d5e5ed635210afb"
 metafile = true
 
 [[files]]
+file = "mods/railcraft.toml"
+hash = "368d48d7df744c50ca74c353fc0d9f028665a02911baa1c0e6fecb892758cff6"
+metafile = true
+
+[[files]]
 file = "mods/ranged-pumps.toml"
 hash = "2a0679d59374566b512e9b1329a9d64e21ccd1621887a5f67b09905646a776b2"
 metafile = true
@@ -844,9 +849,4 @@ metafile = true
 [[files]]
 file = "mods/zerocore.toml"
 hash = "2e06de2c077491c862f8db03b9855d94c1701cf3ae901a0950984a754efe220b"
-metafile = true
-
-[[files]]
-file = "mods/zpm-mod.toml"
-hash = "d7178f873f5d3614cec91726de1a326d6e82ac404908dd6d5f10adc8ee388c35"
 metafile = true
