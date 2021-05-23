@@ -85,6 +85,22 @@ file = "config/ruins_config/generic/aunisuniverse.tml"
 hash = "59e3b3e53e9f3e3f162315b2d9841d7058522e5ea121474a45af34a3db1e957a"
 
 [[files]]
+file = "config/ruins_config/generic/dartiscraft-ancient-repository-mk3f.tml"
+hash = "010e6e34b74302a8660d89454371932ea9a3a1d79ce4569bd1cd7063c8d21374"
+
+[[files]]
+file = "config/ruins_config/generic/dartiscraft-ancient-repository-mk3l.tml"
+hash = "010843f510416e93dbc0c903cc6973156080e7a2f4b2982c360da7a7fe7372bf"
+
+[[files]]
+file = "config/ruins_config/generic/dartiscraft-ancient-repository-mk3r.tml"
+hash = "8ff94a098ae0b57715c1fea9a34a190a677c84d79b22ae4dbb745ef427da527f"
+
+[[files]]
+file = "config/sgcraft.cfg"
+hash = "b2c5db76613617db47256d3d34ef47f679d40342f146956137aef5aceea12a74"
+
+[[files]]
 file = "config/simplerpg.cfg"
 hash = "9aa8f5bd88dd2fccbf1c9e6fe4afbe99296d28ff09af9e1561dceec1791beb23"
 
@@ -729,6 +745,11 @@ metafile = true
 [[files]]
 file = "mods/simple-rpg.toml"
 hash = "b1e24d97ccbad657a899609ccea6ae5c6b017bf0a10ca4b3dc8eeee45b045bc0"
+metafile = true
+
+[[files]]
+file = "mods/stargate-network.toml"
+hash = "0efef065ca2dbae6ecab5d82d590c8b166f7fe3d1921742df2a25826a835ead2"
 metafile = true
 
 [[files]]
