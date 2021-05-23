@@ -90,11 +90,11 @@ hash = "010e6e34b74302a8660d89454371932ea9a3a1d79ce4569bd1cd7063c8d21374"
 
 [[files]]
 file = "config/ruins_config/generic/dartiscraft-ancient-repository-mk3l.tml"
-hash = "010843f510416e93dbc0c903cc6973156080e7a2f4b2982c360da7a7fe7372bf"
+hash = "30798041a22525ffeb85193a2e1af47ac3178dec862d611e80d2857fb157e92b"
 
 [[files]]
 file = "config/ruins_config/generic/dartiscraft-ancient-repository-mk3r.tml"
-hash = "8ff94a098ae0b57715c1fea9a34a190a677c84d79b22ae4dbb745ef427da527f"
+hash = "f5aa91ad1ace0914297eeffff32f87512e45b31a780ed2b2425dcbc485da3af9"
 
 [[files]]
 file = "config/sgcraft.cfg"
